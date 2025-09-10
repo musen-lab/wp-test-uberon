@@ -1,0 +1,1299 @@
+Prefix(:=<http://purl.obolibrary.org/obo/cteno.owl#>)
+Prefix(dc:=<http://purl.org/dc/elements/1.1/>)
+Prefix(obo:=<http://purl.obolibrary.org/obo/>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(tax:=<http://purl.obolibrary.org/obo/tax#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(bspo:=<http://purl.obolibrary.org/obo/bspo#>)
+Prefix(core:=<http://purl.obolibrary.org/obo/core#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+Prefix(skos:=<http://www.w3.org/2004/02/skos/core#>)
+Prefix(swrla:=<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#>)
+Prefix(terms:=<http://purl.org/dc/terms/>)
+Prefix(subsets:=<http://purl.obolibrary.org/obo/ro/subsets#>)
+Prefix(oboInOwl:=<http://www.geneontology.org/formats/oboInOwl#>)
+
+
+Ontology(<http://purl.obolibrary.org/obo/cteno.owl>
+<http://purl.obolibrary.org/obo/cteno/releases/2016-10-19/cteno.owl>
+Annotation(rdfs:comment "CTENO is an ontology describing the anatomy and developmet of ctenophores.")
+
+Declaration(Class(obo:BSPO_0000010))
+Declaration(Class(obo:BSPO_0000400))
+Declaration(Class(obo:CHEBI_36080))
+Declaration(Class(obo:CL_0000000))
+Declaration(Class(obo:CL_0000006))
+Declaration(Class(obo:CL_0000066))
+Declaration(Class(obo:CL_0000098))
+Declaration(Class(obo:CL_0000134))
+Declaration(Class(obo:CL_0000187))
+Declaration(Class(obo:CL_0000199))
+Declaration(Class(obo:CL_0000210))
+Declaration(Class(obo:CL_0000353))
+Declaration(Class(obo:CL_0000710))
+Declaration(Class(obo:CL_0002319))
+Declaration(Class(obo:CTENO_0000001))
+Declaration(Class(obo:CTENO_0000002))
+Declaration(Class(obo:CTENO_0000003))
+Declaration(Class(obo:CTENO_0000004))
+Declaration(Class(obo:CTENO_0000005))
+Declaration(Class(obo:CTENO_0000006))
+Declaration(Class(obo:CTENO_0000007))
+Declaration(Class(obo:CTENO_0000008))
+Declaration(Class(obo:CTENO_0000009))
+Declaration(Class(obo:CTENO_0000010))
+Declaration(Class(obo:CTENO_0000011))
+Declaration(Class(obo:CTENO_0000012))
+Declaration(Class(obo:CTENO_0000013))
+Declaration(Class(obo:CTENO_0000014))
+Declaration(Class(obo:CTENO_0000015))
+Declaration(Class(obo:CTENO_0000016))
+Declaration(Class(obo:CTENO_0000017))
+Declaration(Class(obo:CTENO_0000018))
+Declaration(Class(obo:CTENO_0000019))
+Declaration(Class(obo:CTENO_0000020))
+Declaration(Class(obo:CTENO_0000021))
+Declaration(Class(obo:CTENO_0000022))
+Declaration(Class(obo:CTENO_0000023))
+Declaration(Class(obo:CTENO_0000024))
+Declaration(Class(obo:CTENO_0000025))
+Declaration(Class(obo:CTENO_0000026))
+Declaration(Class(obo:CTENO_0000027))
+Declaration(Class(obo:CTENO_0000028))
+Declaration(Class(obo:CTENO_0000029))
+Declaration(Class(obo:CTENO_0000030))
+Declaration(Class(obo:CTENO_0000031))
+Declaration(Class(obo:CTENO_0000032))
+Declaration(Class(obo:CTENO_0000033))
+Declaration(Class(obo:CTENO_0000034))
+Declaration(Class(obo:CTENO_0000035))
+Declaration(Class(obo:CTENO_0000036))
+Declaration(Class(obo:CTENO_0000037))
+Declaration(Class(obo:CTENO_0000038))
+Declaration(Class(obo:CTENO_0000039))
+Declaration(Class(obo:CTENO_0000040))
+Declaration(Class(obo:CTENO_0000041))
+Declaration(Class(obo:CTENO_0000042))
+Declaration(Class(obo:CTENO_0000043))
+Declaration(Class(obo:CTENO_0000044))
+Declaration(Class(obo:CTENO_0000045))
+Declaration(Class(obo:CTENO_0000046))
+Declaration(Class(obo:CTENO_0000047))
+Declaration(Class(obo:CTENO_0000048))
+Declaration(Class(obo:CTENO_0000049))
+Declaration(Class(obo:CTENO_0000050))
+Declaration(Class(obo:CTENO_0000051))
+Declaration(Class(obo:CTENO_0000052))
+Declaration(Class(obo:CTENO_0000053))
+Declaration(Class(obo:CTENO_0000054))
+Declaration(Class(obo:CTENO_0000055))
+Declaration(Class(obo:CTENO_0000056))
+Declaration(Class(obo:CTENO_0000057))
+Declaration(Class(obo:CTENO_0000058))
+Declaration(Class(obo:CTENO_0000059))
+Declaration(Class(obo:CTENO_0000060))
+Declaration(Class(obo:CTENO_0000061))
+Declaration(Class(obo:CTENO_0000062))
+Declaration(Class(obo:CTENO_0000063))
+Declaration(Class(obo:CTENO_0000064))
+Declaration(Class(obo:CTENO_0000065))
+Declaration(Class(obo:CTENO_0000066))
+Declaration(Class(obo:CTENO_0000067))
+Declaration(Class(obo:CTENO_0000068))
+Declaration(Class(obo:CTENO_0000069))
+Declaration(Class(obo:CTENO_0000070))
+Declaration(Class(obo:CTENO_0000071))
+Declaration(Class(obo:CTENO_0000072))
+Declaration(Class(obo:CTENO_0000073))
+Declaration(Class(obo:CTENO_0000074))
+Declaration(Class(obo:CTENO_0000075))
+Declaration(Class(obo:CTENO_0000076))
+Declaration(Class(obo:CTENO_0000078))
+Declaration(Class(obo:CTENO_0000079))
+Declaration(Class(obo:CTENO_0000081))
+Declaration(Class(obo:CTENO_0000082))
+Declaration(Class(obo:CTENO_0000083))
+Declaration(Class(obo:CTENO_0000084))
+Declaration(Class(obo:CTENO_0000085))
+Declaration(Class(obo:CTENO_0000086))
+Declaration(Class(obo:CTENO_0000087))
+Declaration(Class(obo:CTENO_0000088))
+Declaration(Class(obo:CTENO_0000090))
+Declaration(Class(obo:CTENO_0000091))
+Declaration(Class(obo:CTENO_0000092))
+Declaration(Class(obo:CTENO_0000093))
+Declaration(Class(obo:CTENO_0000094))
+Declaration(Class(obo:CTENO_0000095))
+Declaration(Class(obo:CTENO_0000096))
+Declaration(Class(obo:CTENO_0000097))
+Declaration(Class(obo:CTENO_0000098))
+Declaration(Class(obo:CTENO_0000099))
+Declaration(Class(obo:CTENO_0000100))
+Declaration(Class(obo:CTENO_0000101))
+Declaration(Class(obo:CTENO_0000102))
+Declaration(Class(obo:CTENO_0000103))
+Declaration(Class(obo:CTENO_0000104))
+Declaration(Class(obo:CTENO_0000105))
+Declaration(Class(obo:CTENO_0000106))
+Declaration(Class(obo:CTENO_0000107))
+Declaration(Class(obo:CTENO_0000108))
+Declaration(Class(obo:CTENO_0000109))
+Declaration(Class(obo:CTENO_0000110))
+Declaration(Class(obo:CTENO_0000111))
+Declaration(Class(obo:CTENO_0000112))
+Declaration(Class(obo:CTENO_0000113))
+Declaration(Class(obo:CTENO_0000114))
+Declaration(Class(obo:CTENO_0000115))
+Declaration(Class(obo:CTENO_0000116))
+Declaration(Class(obo:CTENO_0000117))
+Declaration(Class(obo:CTENO_0000118))
+Declaration(Class(obo:CTENO_0000119))
+Declaration(Class(obo:CTENO_0000120))
+Declaration(Class(obo:CTENO_0000121))
+Declaration(Class(obo:CTENO_0000122))
+Declaration(Class(obo:CTENO_0000123))
+Declaration(Class(obo:CTENO_0000124))
+Declaration(Class(obo:CTENO_0000125))
+Declaration(Class(obo:CTENO_0000126))
+Declaration(Class(obo:CTENO_0000127))
+Declaration(Class(obo:CTENO_0000128))
+Declaration(Class(obo:CTENO_0000130))
+Declaration(Class(obo:CTENO_0000131))
+Declaration(Class(obo:CTENO_0000132))
+Declaration(Class(obo:CTENO_0000133))
+Declaration(Class(obo:CTENO_0000134))
+Declaration(Class(obo:CTENO_0000135))
+Declaration(Class(obo:CTENO_0000136))
+Declaration(Class(obo:CTENO_0000137))
+Declaration(Class(obo:CTENO_0000138))
+Declaration(Class(obo:CTENO_0000139))
+Declaration(Class(obo:CTENO_0000140))
+Declaration(Class(obo:CTENO_0000141))
+Declaration(Class(obo:CTENO_0000142))
+Declaration(Class(obo:CTENO_0000143))
+Declaration(Class(obo:CTENO_0000145))
+Declaration(Class(obo:CTENO_0000146))
+Declaration(Class(obo:CTENO_0000147))
+Declaration(Class(obo:CTENO_0000148))
+Declaration(Class(obo:CTENO_0000149))
+Declaration(Class(obo:CTENO_0000150))
+Declaration(Class(obo:CTENO_0000151))
+Declaration(Class(obo:CTENO_0000152))
+Declaration(Class(obo:CTENO_0000153))
+Declaration(Class(obo:CTENO_0000154))
+Declaration(Class(obo:CTENO_0000155))
+Declaration(Class(obo:CTENO_0000156))
+Declaration(Class(obo:GO_0005575))
+Declaration(Class(obo:GO_0005623))
+Declaration(Class(obo:GO_0005929))
+Declaration(Class(obo:GO_0031012))
+Declaration(Class(obo:GO_0040011))
+Declaration(Class(obo:GO_0044444))
+Declaration(Class(obo:NCBITaxon_140471))
+Declaration(Class(obo:NCBITaxon_37539))
+Declaration(Class(obo:UBERON_0000026))
+Declaration(Class(obo:UBERON_0000061))
+Declaration(Class(obo:UBERON_0000062))
+Declaration(Class(obo:UBERON_0000066))
+Declaration(Class(obo:UBERON_0000067))
+Declaration(Class(obo:UBERON_0000069))
+Declaration(Class(obo:UBERON_0000100))
+Declaration(Class(obo:UBERON_0000109))
+Declaration(Class(obo:UBERON_0000159))
+Declaration(Class(obo:UBERON_0000161))
+Declaration(Class(obo:UBERON_0000468))
+Declaration(Class(obo:UBERON_0000475))
+Declaration(Class(obo:UBERON_0000477))
+Declaration(Class(obo:UBERON_0000479))
+Declaration(Class(obo:UBERON_0000483))
+Declaration(Class(obo:UBERON_0001016))
+Declaration(Class(obo:UBERON_0001021))
+Declaration(Class(obo:UBERON_0001032))
+Declaration(Class(obo:UBERON_0001135))
+Declaration(Class(obo:UBERON_0001630))
+Declaration(Class(obo:UBERON_0002036))
+Declaration(Class(obo:UBERON_0002385))
+Declaration(Class(obo:UBERON_0002416))
+Declaration(Class(obo:UBERON_0002548))
+Declaration(Class(obo:UBERON_0004111))
+Declaration(Class(obo:UBERON_0004923))
+Declaration(Class(obo:UBERON_0006134))
+Declaration(Class(obo:UBERON_0006562))
+Declaration(Class(obo:UBERON_0006582))
+Declaration(Class(obo:UBERON_0006583))
+Declaration(Class(obo:UBERON_0006846))
+Declaration(Class(obo:UBERON_0007023))
+Declaration(Class(obo:UBERON_0007233))
+Declaration(Class(obo:UBERON_0007236))
+Declaration(Class(obo:UBERON_0011216))
+Declaration(Class(obo:UBERON_0014892))
+Declaration(ObjectProperty(obo:BFO_0000050))
+Declaration(ObjectProperty(obo:BFO_0000051))
+Declaration(ObjectProperty(obo:BFO_0000068))
+Declaration(ObjectProperty(obo:BSPO_0015005))
+Declaration(ObjectProperty(obo:RO_0001025))
+Declaration(ObjectProperty(obo:RO_0002087))
+Declaration(ObjectProperty(obo:RO_0002131))
+Declaration(ObjectProperty(obo:RO_0002134))
+Declaration(ObjectProperty(obo:RO_0002150))
+Declaration(ObjectProperty(obo:RO_0002176))
+Declaration(ObjectProperty(obo:RO_0002202))
+Declaration(ObjectProperty(obo:RO_0002207))
+Declaration(ObjectProperty(obo:RO_0002216))
+Declaration(ObjectProperty(obo:RO_0002220))
+Declaration(ObjectProperty(obo:RO_0002254))
+Declaration(ObjectProperty(obo:RO_0002473))
+Declaration(ObjectProperty(obo:RO_0002491))
+Declaration(ObjectProperty(obo:RO_0002496))
+Declaration(ObjectProperty(<http://semanticscience.org/resource/SIO_000658>))
+Declaration(AnnotationProperty(obo:IAO_0000115))
+Declaration(AnnotationProperty(obo:UBPROP_0000008))
+Declaration(AnnotationProperty(core:source))
+Declaration(AnnotationProperty(oboInOwl:editor_notes))
+Declaration(AnnotationProperty(oboInOwl:hasBroadSynonym))
+Declaration(AnnotationProperty(oboInOwl:hasExactSynonym))
+Declaration(AnnotationProperty(oboInOwl:hasRelatedSynonym))
+
+
+
+############################
+#   Classes
+############################
+
+# Class: obo:CTENO_0000001 (ctene plate)
+
+AnnotationAssertion(obo:IAO_0000115 obo:CTENO_0000001 "A collection of cilia attached to basal cushions and made up of polster cells. A characteristic feature of ctenophores"@en)
+AnnotationAssertion(obo:UBPROP_0000008 obo:CTENO_0000001 "lost in Platyctenida"@en)
+AnnotationAssertion(oboInOwl:hasBroadSynonym obo:CTENO_0000001 "ctene")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:CTENO_0000001 "comb plate")
+AnnotationAssertion(rdfs:comment obo:CTENO_0000001 "The move- ment of the ctene plates are controlled by the apical organ, a sensory structure containing a statocyst located at the aboral pole (Tamm, 1982, for review)")
+AnnotationAssertion(rdfs:label obo:CTENO_0000001 "ctene plate"@en)
+SubClassOf(obo:CTENO_0000001 obo:UBERON_0000062)
+SubClassOf(obo:CTENO_0000001 ObjectSomeValuesFrom(obo:BFO_0000050 obo:CTENO_0000137))
+SubClassOf(obo:CTENO_0000001 ObjectSomeValuesFrom(obo:RO_0002216 obo:GO_0040011))
+SubClassOf(obo:CTENO_0000001 ObjectSomeValuesFrom(obo:RO_0002254 obo:CTENO_0000099))
+SubClassOf(obo:CTENO_0000001 ObjectSomeValuesFrom(obo:RO_0002254 obo:CTENO_0000103))
+SubClassOf(obo:CTENO_0000001 ObjectSomeValuesFrom(obo:RO_0002473 obo:GO_0005929))
+DisjointClasses(obo:CTENO_0000001 ObjectSomeValuesFrom(obo:BFO_0000050 obo:NCBITaxon_140471))
+
+# Class: obo:CTENO_0000002 (outer epidermis)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000002 "outer epidermis"@en)
+SubClassOf(obo:CTENO_0000002 obo:UBERON_0000483)
+
+# Class: obo:CTENO_0000003 (gastrodermis)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000003 "gastrodermis"@en)
+AnnotationAssertion(rdfs:seeAlso obo:CTENO_0000003 "https://en.wikipedia.org/wiki/Gastrodermis"^^xsd:anyURI)
+SubClassOf(obo:CTENO_0000003 obo:UBERON_0000483)
+
+# Class: obo:CTENO_0000004 (mesoglea)
+
+AnnotationAssertion(obo:IAO_0000115 obo:CTENO_0000004 "A thick jelly-like layer between the epidermis and gastrodermis. The mesoglea is mostly acellular and composed of extracellular matrix, but it also has some muscle and mesenchymal cells."@en)
+AnnotationAssertion(rdfs:label obo:CTENO_0000004 "mesoglea"@en)
+AnnotationAssertion(rdfs:seeAlso obo:CTENO_0000004 "https://en.wikipedia.org/wiki/Mesoglea"^^xsd:anyURI)
+SubClassOf(obo:CTENO_0000004 obo:UBERON_0000479)
+SubClassOf(obo:CTENO_0000004 ObjectSomeValuesFrom(obo:BFO_0000051 obo:CL_0000134))
+SubClassOf(obo:CTENO_0000004 ObjectSomeValuesFrom(obo:BFO_0000051 obo:CL_0000187))
+
+# Class: obo:CTENO_0000005 (comb plate cilium)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000005 "comb plate cilium"@en)
+EquivalentClasses(obo:CTENO_0000005 ObjectIntersectionOf(obo:GO_0005929 ObjectSomeValuesFrom(obo:BFO_0000050 obo:CTENO_0000001)))
+SubClassOf(obo:CTENO_0000005 obo:GO_0005929)
+SubClassOf(obo:CTENO_0000005 ObjectSomeValuesFrom(obo:BFO_0000050 obo:CTENO_0000001))
+
+# Class: obo:CTENO_0000006 (sensory cell cilium)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000006 "sensory cell cilium"@en)
+EquivalentClasses(obo:CTENO_0000006 ObjectIntersectionOf(obo:GO_0005929 ObjectSomeValuesFrom(obo:BFO_0000050 ObjectIntersectionOf(obo:CL_0000000 ObjectSomeValuesFrom(obo:BFO_0000050 obo:UBERON_0001032)))))
+SubClassOf(obo:CTENO_0000006 obo:GO_0005929)
+SubClassOf(obo:CTENO_0000006 ObjectSomeValuesFrom(obo:BFO_0000050 ObjectIntersectionOf(obo:CL_0000000 ObjectSomeValuesFrom(obo:BFO_0000050 obo:UBERON_0001032))))
+
+# Class: obo:CTENO_0000007 (tentacle sheath cilium)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000007 "tentacle sheath cilium"@en)
+SubClassOf(obo:CTENO_0000007 obo:GO_0005929)
+
+# Class: obo:CTENO_0000008 (polar field cilium)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000008 "polar field cilium"@en)
+EquivalentClasses(obo:CTENO_0000008 ObjectIntersectionOf(obo:GO_0005929 ObjectSomeValuesFrom(obo:BFO_0000050 obo:CTENO_0000145)))
+SubClassOf(obo:CTENO_0000008 obo:GO_0005929)
+SubClassOf(obo:CTENO_0000008 ObjectSomeValuesFrom(obo:BFO_0000050 obo:CTENO_0000145))
+
+# Class: obo:CTENO_0000009 (auricular cilium)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000009 "auricular cilium"@en)
+SubClassOf(obo:CTENO_0000009 obo:GO_0005929)
+
+# Class: obo:CTENO_0000010 (pharyngeal cilium)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000010 "pharyngeal cilium"@en)
+SubClassOf(obo:CTENO_0000010 obo:GO_0005929)
+
+# Class: obo:CTENO_0000011 (good groove cilium)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000011 "good groove cilium"@en)
+SubClassOf(obo:CTENO_0000011 obo:GO_0005929)
+
+# Class: obo:CTENO_0000012 (balancer cilium)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000012 "balancer cilium"@en)
+EquivalentClasses(obo:CTENO_0000012 ObjectIntersectionOf(obo:GO_0005929 ObjectSomeValuesFrom(obo:BFO_0000050 obo:CTENO_0000057)))
+SubClassOf(obo:CTENO_0000012 obo:CTENO_0000006)
+SubClassOf(obo:CTENO_0000012 ObjectSomeValuesFrom(obo:BFO_0000050 obo:CTENO_0000057))
+
+# Class: obo:CTENO_0000013 (dome cilium)
+
+AnnotationAssertion(rdfs:comment obo:CTENO_0000013 "The statocyst is protected by a transparent dome made of long, immobile cilia.")
+AnnotationAssertion(rdfs:label obo:CTENO_0000013 "dome cilium"@en)
+SubClassOf(obo:CTENO_0000013 obo:GO_0005929)
+SubClassOf(obo:CTENO_0000013 ObjectSomeValuesFrom(obo:BFO_0000050 obo:CTENO_0000017))
+
+# Class: obo:CTENO_0000014 (aboral groove cilium)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000014 "aboral groove cilium"@en)
+SubClassOf(obo:CTENO_0000014 obo:GO_0005929)
+
+# Class: obo:CTENO_0000015 (extracellular matrix of mesoglea)
+
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:CTENO_0000015 "mesogleal extracellular matrix"@en)
+AnnotationAssertion(rdfs:label obo:CTENO_0000015 "extracellular matrix of mesoglea"@en)
+EquivalentClasses(obo:CTENO_0000015 ObjectIntersectionOf(obo:GO_0031012 ObjectSomeValuesFrom(obo:BFO_0000050 obo:CTENO_0000004)))
+SubClassOf(obo:CTENO_0000015 obo:GO_0031012)
+SubClassOf(obo:CTENO_0000015 ObjectSomeValuesFrom(obo:BFO_0000050 obo:CTENO_0000004))
+
+# Class: obo:CTENO_0000016 (polster cell)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000016 "polster cell"@en)
+SubClassOf(obo:CTENO_0000016 obo:CL_0000000)
+SubClassOf(obo:CTENO_0000016 obo:GO_0005623)
+
+# Class: obo:CTENO_0000017 (apical sense organ)
+
+AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:CTENO_0000017 "aboral organ")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:CTENO_0000017 "apical organ")
+AnnotationAssertion(rdfs:label obo:CTENO_0000017 "apical sense organ"@en)
+SubClassOf(obo:CTENO_0000017 obo:UBERON_0000062)
+SubClassOf(obo:CTENO_0000017 ObjectSomeValuesFrom(obo:BFO_0000050 obo:CTENO_0000151))
+SubClassOf(obo:CTENO_0000017 ObjectSomeValuesFrom(obo:BFO_0000050 obo:UBERON_0001016))
+SubClassOf(obo:CTENO_0000017 ObjectSomeValuesFrom(obo:BFO_0000050 obo:UBERON_0001032))
+SubClassOf(obo:CTENO_0000017 ObjectExactCardinality(0 obo:BFO_0000051 ObjectIntersectionOf(obo:CL_0000000 ObjectComplementOf(obo:CTENO_0000056) ObjectComplementOf(obo:CTENO_0000134) ObjectSomeValuesFrom(obo:RO_0002202 obo:CTENO_0000066))))
+
+# Class: obo:CTENO_0000018 (tentacle)
+
+AnnotationAssertion(obo:UBPROP_0000008 obo:CTENO_0000018 "absent in beroids"@en)
+AnnotationAssertion(rdfs:comment obo:CTENO_0000018 "Most ctenophores also bear two muscular tentacles which are used for prey capture, and ultrastruc- tural studies have shown that these structures are distinct from cnidarian tentacles (Hernandez-Nicaise, 1991)")
+AnnotationAssertion(rdfs:label obo:CTENO_0000018 "tentacle"@en)
+SubClassOf(obo:CTENO_0000018 obo:UBERON_0000026)
+
+# Class: obo:CTENO_0000019 (photocyte)
+
+AnnotationAssertion(obo:IAO_0000115 obo:CTENO_0000019 "Light-producing cell present in nearly all ctenophores"@en)
+AnnotationAssertion(rdfs:label obo:CTENO_0000019 "photocyte"@en)
+SubClassOf(obo:CTENO_0000019 obo:CL_0000000)
+SubClassOf(obo:CTENO_0000019 obo:GO_0005623)
+SubClassOf(obo:CTENO_0000019 ObjectSomeValuesFrom(obo:RO_0002202 obo:CTENO_0000067))
+
+# Class: obo:CTENO_0000020 (colloblast)
+
+AnnotationAssertion(obo:IAO_0000115 obo:CTENO_0000020 "A specialized adhesive cell found in ctenophores"@en)
+AnnotationAssertion(rdfs:label obo:CTENO_0000020 "colloblast"@en)
+AnnotationAssertion(rdfs:seeAlso obo:CTENO_0000020 "https://en.wikipedia.org/wiki/Colloblast"^^xsd:anyURI)
+SubClassOf(obo:CTENO_0000020 obo:CL_0000000)
+SubClassOf(obo:CTENO_0000020 obo:GO_0005623)
+SubClassOf(obo:CTENO_0000020 ObjectSomeValuesFrom(obo:BFO_0000050 obo:CTENO_0000018))
+SubClassOf(obo:CTENO_0000020 ObjectSomeValuesFrom(obo:RO_0002202 obo:CTENO_0000104))
+
+# Class: obo:CTENO_0000021 (oral lobe)
+
+AnnotationAssertion(obo:IAO_0000115 obo:CTENO_0000021 "A conspicuous lobed structure used for feeding, characteristic of the Lobata (\"sea walnuts\")"@en)
+AnnotationAssertion(rdfs:label obo:CTENO_0000021 "oral lobe"@en)
+SubClassOf(obo:CTENO_0000021 obo:UBERON_0000062)
+
+# Class: obo:CTENO_0000022 (adult ctenophore)
+
+AnnotationAssertion(Annotation(core:source "doi:10.1101/pdb.emo106") obo:UBPROP_0000008 obo:CTENO_0000022 "Pleurobrachia species maintain cydippid forms as adults, but the others become radically different: M. leidyi greatly reduce their tentacles and form large oral lobes; B. ovata lack tentacles and form large oral lips that they use to engulf or nip at other ctenophores; and platyctenes become compressed in the oral-aboral direction and adopt a sessile or creeping lifestyle, crawling around the substratum rather than locomoting by beating their ctene rows."@en)
+AnnotationAssertion(rdfs:label obo:CTENO_0000022 "adult ctenophore"@en)
+EquivalentClasses(obo:CTENO_0000022 ObjectIntersectionOf(obo:UBERON_0000468 ObjectSomeValuesFrom(obo:RO_0002491 obo:CTENO_0000025)))
+SubClassOf(obo:CTENO_0000022 obo:UBERON_0007023)
+SubClassOf(obo:CTENO_0000022 ObjectSomeValuesFrom(obo:RO_0002491 obo:CTENO_0000025))
+SubClassOf(obo:CTENO_0000022 ObjectSomeValuesFrom(<http://semanticscience.org/resource/SIO_000658> obo:CTENO_0000023))
+
+# Class: obo:CTENO_0000023 (cydippid larva)
+
+AnnotationAssertion(obo:IAO_0000115 obo:CTENO_0000023 "A ctenophore larva"@en)
+AnnotationAssertion(rdfs:label obo:CTENO_0000023 "cydippid larva"@en)
+EquivalentClasses(obo:CTENO_0000023 ObjectIntersectionOf(obo:UBERON_0000468 ObjectSomeValuesFrom(obo:RO_0002491 obo:CTENO_0000024)))
+SubClassOf(obo:CTENO_0000023 obo:UBERON_0002548)
+SubClassOf(obo:CTENO_0000023 ObjectSomeValuesFrom(obo:RO_0002491 obo:CTENO_0000024))
+
+# Class: obo:CTENO_0000024 (cydippid stage)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000024 "cydippid stage"@en)
+SubClassOf(obo:CTENO_0000024 obo:UBERON_0000069)
+
+# Class: obo:CTENO_0000025 (ctenophore adult stage)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000025 "ctenophore adult stage"@en)
+SubClassOf(obo:CTENO_0000025 obo:UBERON_0000066)
+
+# Class: obo:CTENO_0000026 (meridional canal)
+
+AnnotationAssertion(Annotation(core:source "doi:10.1101/pdb.emo106") obo:IAO_0000115 obo:CTENO_0000026 "A canal that is associated with a testis and an ovary"@en)
+AnnotationAssertion(rdfs:label obo:CTENO_0000026 "meridional canal"@en)
+SubClassOf(obo:CTENO_0000026 obo:UBERON_0004111)
+
+# Class: obo:CTENO_0000027 (nurse cell)
+
+AnnotationAssertion(obo:UBPROP_0000008 obo:CTENO_0000027 "In Bolinopsis microptera each oocyte is associated with as many as 100 nurse cells."@en)
+AnnotationAssertion(rdfs:comment obo:CTENO_0000027 "connected to the oocyte by cytoplasmic bridges that transport cytoplasm and yolk to the oocyte (Dunlap Pianka 1974)"@en)
+AnnotationAssertion(rdfs:label obo:CTENO_0000027 "nurse cell"@en)
+SubClassOf(obo:CTENO_0000027 obo:CL_0000000)
+SubClassOf(obo:CTENO_0000027 obo:GO_0005623)
+
+# Class: obo:CTENO_0000028 (ectoplasm)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000028 "ectoplasm"@en)
+SubClassOf(obo:CTENO_0000028 obo:GO_0044444)
+
+# Class: obo:CTENO_0000029 (endoplasm)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000029 "endoplasm"@en)
+SubClassOf(obo:CTENO_0000029 obo:GO_0005575)
+
+# Class: obo:CTENO_0000030 (subcortical plasm)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000030 "subcortical plasm"@en)
+SubClassOf(obo:CTENO_0000030 obo:GO_0005575)
+SubClassOf(obo:CTENO_0000030 ObjectSomeValuesFrom(obo:RO_0002220 obo:CTENO_0000028))
+SubClassOf(obo:CTENO_0000030 ObjectSomeValuesFrom(obo:RO_0002220 obo:CTENO_0000029))
+
+# Class: obo:CTENO_0000031 (periodic acid Schiff positive yolk particles)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000031 "periodic acid Schiff positive yolk particles"@en)
+SubClassOf(obo:CTENO_0000031 obo:GO_0005575)
+
+# Class: obo:CTENO_0000032 (gonadopore)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000032 "gonadopore"@en)
+SubClassOf(obo:CTENO_0000032 obo:UBERON_0000161)
+
+# Class: obo:CTENO_0000033 (anal pore)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000033 "anal pore"@en)
+SubClassOf(obo:CTENO_0000033 obo:UBERON_0000161)
+SubClassOf(obo:CTENO_0000033 ObjectSomeValuesFrom(obo:BFO_0000050 obo:CTENO_0000142))
+SubClassOf(obo:CTENO_0000033 ObjectSomeValuesFrom(obo:BFO_0000050 obo:CTENO_0000151))
+
+# Class: obo:CTENO_0000034 (ctenophore anal canal)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000034 "ctenophore anal canal"@en)
+EquivalentClasses(obo:CTENO_0000034 ObjectIntersectionOf(obo:UBERON_0004111 ObjectSomeValuesFrom(obo:RO_0002176 obo:CTENO_0000033)))
+SubClassOf(obo:CTENO_0000034 obo:UBERON_0004111)
+SubClassOf(obo:CTENO_0000034 ObjectSomeValuesFrom(obo:BFO_0000050 obo:CTENO_0000142))
+SubClassOf(obo:CTENO_0000034 ObjectSomeValuesFrom(obo:RO_0002176 obo:CTENO_0000033))
+SubClassOf(obo:CTENO_0000034 ObjectSomeValuesFrom(obo:RO_0002202 obo:CTENO_0000067))
+
+# Class: obo:CTENO_0000035 (epitheliomuscular cell)
+
+AnnotationAssertion(rdfs:comment obo:CTENO_0000035 "To be ceded to cnidarian anatomy ontology"@en)
+AnnotationAssertion(rdfs:label obo:CTENO_0000035 "epitheliomuscular cell"@en)
+SubClassOf(obo:CTENO_0000035 obo:CL_0000066)
+
+# Class: obo:CTENO_0000036 (parietal muscle)
+
+AnnotationAssertion(obo:IAO_0000115 obo:CTENO_0000036 "Ribbon-shaped smooth muscle that resides between the glandular epithelial cells and the basal lamina"@en)
+AnnotationAssertion(rdfs:label obo:CTENO_0000036 "parietal muscle"@en)
+SubClassOf(obo:CTENO_0000036 obo:UBERON_0001135)
+SubClassOf(obo:CTENO_0000036 ObjectSomeValuesFrom(obo:BFO_0000050 obo:UBERON_0002416))
+
+# Class: obo:CTENO_0000037 (giant smooth muscle)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000037 "giant smooth muscle"@en)
+SubClassOf(obo:CTENO_0000037 obo:UBERON_0001135)
+
+# Class: obo:CTENO_0000038 (mesogleal muscle)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000038 "mesogleal muscle"@en)
+EquivalentClasses(obo:CTENO_0000038 ObjectIntersectionOf(obo:UBERON_0002385 ObjectSomeValuesFrom(obo:BFO_0000050 obo:CTENO_0000004)))
+SubClassOf(obo:CTENO_0000038 obo:CTENO_0000037)
+SubClassOf(obo:CTENO_0000038 ObjectSomeValuesFrom(obo:BFO_0000050 obo:CTENO_0000004))
+
+# Class: obo:CTENO_0000039 (longitudinal mesogleal muscle)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000039 "longitudinal mesogleal muscle"@en)
+SubClassOf(obo:CTENO_0000039 obo:CTENO_0000038)
+
+# Class: obo:CTENO_0000040 (circumferential mesogleal muscle)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000040 "circumferential mesogleal muscle"@en)
+SubClassOf(obo:CTENO_0000040 obo:CTENO_0000038)
+
+# Class: obo:CTENO_0000041 (radial mesogleal muscle)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000041 "radial mesogleal muscle"@en)
+SubClassOf(obo:CTENO_0000041 obo:CTENO_0000038)
+
+# Class: obo:CTENO_0000042 (tentacular muscle)
+
+AnnotationAssertion(oboInOwl:editor_notes obo:CTENO_0000042 "Within the tentacles themselves are mesogleal muscles that are constantly being produced from cells at the base of the tentacle. We need to distinguish between muscles that are part of the tentacle proper and the mesogleal component (see mesogleal muscles)"@en)
+AnnotationAssertion(rdfs:label obo:CTENO_0000042 "tentacular muscle"@en)
+EquivalentClasses(obo:CTENO_0000042 ObjectIntersectionOf(obo:UBERON_0001630 ObjectSomeValuesFrom(obo:BFO_0000050 obo:CTENO_0000018)))
+SubClassOf(obo:CTENO_0000042 obo:UBERON_0014892)
+SubClassOf(obo:CTENO_0000042 ObjectSomeValuesFrom(obo:BFO_0000050 obo:CTENO_0000018))
+
+# Class: obo:CTENO_0000043 (trans-tentacular muscle)
+
+AnnotationAssertion(obo:IAO_0000115 obo:CTENO_0000043 "A muscle that connects the two tentacle apparatuses")
+AnnotationAssertion(rdfs:label obo:CTENO_0000043 "trans-tentacular muscle"@en)
+SubClassOf(obo:CTENO_0000043 obo:UBERON_0014892)
+
+# Class: obo:CTENO_0000044 (tentilla)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000044 "tentilla"@en)
+SubClassOf(obo:CTENO_0000044 obo:UBERON_0000026)
+
+# Class: obo:CTENO_0000045 (striated muscle of tentilla)
+
+AnnotationAssertion(obo:UBPROP_0000008 obo:CTENO_0000045 "The only description of striated muscle is in the tentilla of Euplokamis (Chun 1880)"@en)
+AnnotationAssertion(rdfs:label obo:CTENO_0000045 "striated muscle of tentilla"@en)
+SubClassOf(obo:CTENO_0000045 obo:UBERON_0002036)
+
+# Class: obo:CTENO_0000046 (mesogleal nerve fiber)
+
+AnnotationAssertion(rdfs:comment obo:CTENO_0000046 "cross the basal lamina and run through the mesoglea"@en)
+AnnotationAssertion(rdfs:label obo:CTENO_0000046 "mesogleal nerve fiber"@en)
+EquivalentClasses(obo:CTENO_0000046 ObjectIntersectionOf(obo:UBERON_0006134 ObjectSomeValuesFrom(obo:BFO_0000051 ObjectSomeValuesFrom(obo:RO_0001025 obo:CTENO_0000004))))
+SubClassOf(obo:CTENO_0000046 obo:UBERON_0006134)
+SubClassOf(obo:CTENO_0000046 ObjectSomeValuesFrom(obo:BFO_0000051 ObjectSomeValuesFrom(obo:RO_0001025 obo:CTENO_0000004)))
+
+# Class: obo:CTENO_0000047 (subepidermal nerve net)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000047 "subepidermal nerve net"@en)
+AnnotationAssertion(rdfs:seeAlso obo:CTENO_0000047 "https://en.wikipedia.org/wiki/Nerve_net"^^xsd:anyURI)
+SubClassOf(obo:CTENO_0000047 obo:UBERON_0011216)
+SubClassOf(obo:CTENO_0000047 ObjectSomeValuesFrom(obo:BFO_0000050 obo:UBERON_0001016))
+SubClassOf(obo:CTENO_0000047 ObjectSomeValuesFrom(obo:BFO_0000051 obo:CL_0000210))
+SubClassOf(obo:CTENO_0000047 ObjectSomeValuesFrom(obo:BFO_0000051 obo:CTENO_0000017))
+
+# Class: obo:CTENO_0000048 (gastrodermal nerve)
+
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:CTENO_0000048 "subgastrodermal nerve"@en)
+AnnotationAssertion(rdfs:label obo:CTENO_0000048 "gastrodermal nerve"@en)
+EquivalentClasses(obo:CTENO_0000048 ObjectIntersectionOf(obo:UBERON_0001021 ObjectSomeValuesFrom(obo:RO_0001025 obo:CTENO_0000003)))
+SubClassOf(obo:CTENO_0000048 obo:UBERON_0001021)
+SubClassOf(obo:CTENO_0000048 ObjectSomeValuesFrom(obo:RO_0001025 obo:CTENO_0000003))
+SubClassOf(obo:CTENO_0000048 ObjectSomeValuesFrom(obo:RO_0001025 obo:CTENO_0000026))
+SubClassOf(obo:CTENO_0000048 ObjectSomeValuesFrom(obo:RO_0002134 obo:CTENO_0000019))
+
+# Class: obo:CTENO_0000049 (mesoglea of tentacle)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000049 "mesoglea of tentacle"@en)
+EquivalentClasses(obo:CTENO_0000049 ObjectIntersectionOf(obo:CTENO_0000004 ObjectSomeValuesFrom(obo:BFO_0000050 obo:CTENO_0000018)))
+SubClassOf(obo:CTENO_0000049 obo:CTENO_0000004)
+SubClassOf(obo:CTENO_0000049 ObjectSomeValuesFrom(obo:BFO_0000050 obo:CTENO_0000018))
+
+# Class: obo:CTENO_0000050 (tastborsten cell)
+
+AnnotationAssertion(rdfs:comment obo:CTENO_0000050 "characterized by a single thin ciliary projection"@en)
+AnnotationAssertion(rdfs:label obo:CTENO_0000050 "tastborsten cell"@en)
+SubClassOf(obo:CTENO_0000050 obo:CTENO_0000052)
+
+# Class: obo:CTENO_0000051 (taststiften cell)
+
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:CTENO_0000051 "hoplocyst"@en)
+AnnotationAssertion(rdfs:comment obo:CTENO_0000051 "possess one or several short pointed pegs"@en)
+AnnotationAssertion(rdfs:label obo:CTENO_0000051 "taststiften cell"@en)
+SubClassOf(obo:CTENO_0000051 obo:CTENO_0000052)
+
+# Class: obo:CTENO_0000052 (nerve network cell)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000052 "nerve network cell"@en)
+EquivalentClasses(obo:CTENO_0000052 ObjectIntersectionOf(obo:CL_0000000 ObjectSomeValuesFrom(obo:BFO_0000050 obo:CTENO_0000047)))
+SubClassOf(obo:CTENO_0000052 obo:CL_0002319)
+SubClassOf(obo:CTENO_0000052 ObjectSomeValuesFrom(obo:BFO_0000050 obo:CTENO_0000047))
+SubClassOf(obo:CTENO_0000052 ObjectSomeValuesFrom(obo:RO_0002202 obo:CTENO_0000100))
+
+# Class: obo:CTENO_0000053 (nerve fiber of mesoglea of tentacle)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000053 "nerve fiber of mesoglea of tentacle"@en)
+EquivalentClasses(obo:CTENO_0000053 ObjectIntersectionOf(obo:UBERON_0006134 ObjectSomeValuesFrom(obo:BFO_0000051 ObjectSomeValuesFrom(obo:RO_0001025 ObjectIntersectionOf(obo:CTENO_0000004 ObjectSomeValuesFrom(obo:BFO_0000050 obo:CTENO_0000018))))))
+SubClassOf(obo:CTENO_0000053 obo:CTENO_0000046)
+SubClassOf(obo:CTENO_0000053 ObjectSomeValuesFrom(obo:BFO_0000051 ObjectSomeValuesFrom(obo:RO_0001025 ObjectIntersectionOf(obo:CTENO_0000004 ObjectSomeValuesFrom(obo:BFO_0000050 obo:CTENO_0000018)))))
+
+# Class: obo:CTENO_0000054 (oral pole)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000054 "oral pole"@en)
+SubClassOf(obo:CTENO_0000054 obo:UBERON_0000475)
+
+# Class: obo:CTENO_0000055 (apical organ floor)
+
+AnnotationAssertion(rdfs:comment obo:CTENO_0000055 "Genes: MlIslet")
+AnnotationAssertion(rdfs:label obo:CTENO_0000055 "apical organ floor"@en)
+SubClassOf(obo:CTENO_0000055 obo:UBERON_0000483)
+SubClassOf(obo:CTENO_0000055 ObjectSomeValuesFrom(obo:BFO_0000050 obo:CTENO_0000017))
+SubClassOf(obo:CTENO_0000055 ObjectSomeValuesFrom(obo:BFO_0000051 obo:CTENO_0000012))
+SubClassOf(obo:CTENO_0000055 ObjectSomeValuesFrom(obo:RO_0002254 obo:CTENO_0000099))
+
+# Class: obo:CTENO_0000056 (lithocyte)
+
+AnnotationAssertion(obo:IAO_0000115 obo:CTENO_0000056 "A mineralized cell generated and constantly replaced in the floor of the apical organ. They are supported on top of the balancing cilia that make up the gravity-sensing statocyst of the apical organ."@en)
+AnnotationAssertion(rdfs:comment obo:CTENO_0000056 "control the posture of the animal"@en)
+AnnotationAssertion(rdfs:label obo:CTENO_0000056 "lithocyte"@en)
+SubClassOf(obo:CTENO_0000056 obo:CL_0002319)
+SubClassOf(obo:CTENO_0000056 ObjectSomeValuesFrom(obo:BFO_0000050 obo:CTENO_0000017))
+SubClassOf(obo:CTENO_0000056 ObjectSomeValuesFrom(obo:RO_0002207 obo:CTENO_0000134))
+
+# Class: obo:CTENO_0000057 (balancer cell)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000057 "balancer cell"@en)
+EquivalentClasses(obo:CTENO_0000057 ObjectIntersectionOf(obo:CL_0000000 ObjectSomeValuesFrom(obo:BFO_0000051 obo:CTENO_0000012)))
+SubClassOf(obo:CTENO_0000057 obo:CL_0000006)
+SubClassOf(obo:CTENO_0000057 obo:CL_0000098)
+SubClassOf(obo:CTENO_0000057 obo:CL_0000199)
+SubClassOf(obo:CTENO_0000057 obo:CL_0000710)
+SubClassOf(obo:CTENO_0000057 ObjectSomeValuesFrom(obo:BFO_0000050 obo:CTENO_0000055))
+SubClassOf(obo:CTENO_0000057 ObjectSomeValuesFrom(obo:BFO_0000051 obo:CTENO_0000012))
+
+# Class: obo:CTENO_0000058 (apical organ statolith)
+
+AnnotationAssertion(rdfs:comment obo:CTENO_0000058 "covered by a dome of nonmotile cilia"@en)
+AnnotationAssertion(rdfs:label obo:CTENO_0000058 "apical organ statolith"@en)
+EquivalentClasses(obo:CTENO_0000058 ObjectIntersectionOf(obo:UBERON_0006582 ObjectSomeValuesFrom(obo:BFO_0000050 obo:CTENO_0000017)))
+SubClassOf(obo:CTENO_0000058 obo:UBERON_0006582)
+SubClassOf(obo:CTENO_0000058 ObjectSomeValuesFrom(obo:BFO_0000050 obo:CTENO_0000017))
+
+# Class: obo:CTENO_0000059 (tentacular nerve)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000059 "tentacular nerve"@en)
+EquivalentClasses(obo:CTENO_0000059 ObjectIntersectionOf(obo:UBERON_0001021 ObjectSomeValuesFrom(obo:RO_0002176 obo:CTENO_0000017) ObjectSomeValuesFrom(obo:RO_0002176 obo:CTENO_0000018)))
+SubClassOf(obo:CTENO_0000059 obo:UBERON_0001021)
+SubClassOf(obo:CTENO_0000059 ObjectSomeValuesFrom(obo:RO_0002176 obo:CTENO_0000017))
+SubClassOf(obo:CTENO_0000059 ObjectSomeValuesFrom(obo:RO_0002176 obo:CTENO_0000018))
+
+# Class: obo:CTENO_0000060 (epithelial papilla)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000060 "epithelial papilla"@en)
+SubClassOf(obo:CTENO_0000060 obo:CL_0000006)
+SubClassOf(obo:CTENO_0000060 obo:CL_0000098)
+SubClassOf(obo:CTENO_0000060 obo:CL_0000199)
+SubClassOf(obo:CTENO_0000060 obo:CL_0000710)
+SubClassOf(obo:CTENO_0000060 ObjectSomeValuesFrom(obo:BFO_0000050 obo:CTENO_0000017))
+
+# Class: obo:CTENO_0000061 (photoprotein)
+
+AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:CTENO_0000061 "mnemiopsin")
+AnnotationAssertion(rdfs:comment obo:CTENO_0000061 "emits light in the presence of calcium ions (Ward and Seliger 1974)."@en)
+AnnotationAssertion(rdfs:label obo:CTENO_0000061 "photoprotein"@en)
+SubClassOf(obo:CTENO_0000061 obo:CHEBI_36080)
+
+# Class: obo:CTENO_0000062 (quadrant)
+
+AnnotationAssertion(Annotation(core:source "PMID:10525332") obo:IAO_0000115 obo:CTENO_0000062 "One of of four nearly identical quadrants organized along the oral-aboral axis. Each of the four quadrants is derived largely from one cell of the four-cell-stage embryo. At the eight-cell stage each quadrant contains a single E (\"end\") and M (\"middle\") blastomere. Subsequently, micromeres are formed first at the aboral pole and later at the oral pole."@en)
+AnnotationAssertion(rdfs:comment obo:CTENO_0000062 "Two orthogonal planes run along the oral–aboral axis which define four quadrants (Fig.")
+AnnotationAssertion(rdfs:label obo:CTENO_0000062 "quadrant"@en)
+SubClassOf(obo:CTENO_0000062 obo:UBERON_0000475)
+SubClassOf(obo:CTENO_0000062 ObjectSomeValuesFrom(obo:RO_0002220 obo:CTENO_0000135))
+SubClassOf(obo:CTENO_0000062 ObjectSomeValuesFrom(obo:RO_0002220 obo:CTENO_0000140))
+
+# Class: obo:CTENO_0000063 (ctenophore blastomere)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000063 "ctenophore blastomere"@en)
+SubClassOf(obo:CTENO_0000063 obo:CL_0000353)
+
+# Class: obo:CTENO_0000064 (E macromere, 8 cell stage)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000064 "E macromere, 8 cell stage"@en)
+SubClassOf(obo:CTENO_0000064 obo:CTENO_0000082)
+
+# Class: obo:CTENO_0000065 (M blastomere)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000065 "M blastomere"@en)
+SubClassOf(obo:CTENO_0000065 obo:CTENO_0000082)
+
+# Class: obo:CTENO_0000066 (micromere)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000066 "micromere"@en)
+SubClassOf(obo:CTENO_0000066 obo:CTENO_0000063)
+SubClassOf(obo:CTENO_0000066 ObjectSomeValuesFrom(obo:RO_0002496 obo:UBERON_0007236))
+
+# Class: obo:CTENO_0000067 (2M macromere)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000067 "2M macromere"@en)
+EquivalentClasses(obo:CTENO_0000067 ObjectIntersectionOf(obo:CTENO_0000087 ObjectSomeValuesFrom(obo:RO_0002207 obo:CTENO_0000076)))
+SubClassOf(obo:CTENO_0000067 obo:CTENO_0000087)
+SubClassOf(obo:CTENO_0000067 ObjectSomeValuesFrom(obo:RO_0002207 obo:CTENO_0000076))
+
+# Class: obo:CTENO_0000068 (3E macromere)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000068 "3E macromere"@en)
+SubClassOf(obo:CTENO_0000068 obo:CTENO_0000088)
+
+# Class: obo:CTENO_0000069 (circumpharyngeal muscle cell)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000069 "circumpharyngeal muscle cell"@en)
+SubClassOf(obo:CTENO_0000069 obo:CL_0000187)
+SubClassOf(obo:CTENO_0000069 ObjectSomeValuesFrom(obo:RO_0002202 obo:CTENO_0000092))
+
+# Class: obo:CTENO_0000070 (EM macromere, 4 cell stage)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000070 "EM macromere, 4 cell stage"@en)
+EquivalentClasses(obo:CTENO_0000070 ObjectIntersectionOf(obo:CTENO_0000075 ObjectSomeValuesFrom(obo:RO_0002491 obo:UBERON_0007233)))
+SubClassOf(obo:CTENO_0000070 obo:CTENO_0000075)
+SubClassOf(obo:CTENO_0000070 ObjectSomeValuesFrom(obo:RO_0002491 obo:UBERON_0007233))
+
+# Class: obo:CTENO_0000071 (EM-slash blastomere)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000071 "EM-slash blastomere"@en)
+SubClassOf(obo:CTENO_0000071 obo:CTENO_0000070)
+
+# Class: obo:CTENO_0000072 (EM-backslash blastomere)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000072 "EM-backslash blastomere"@en)
+SubClassOf(obo:CTENO_0000072 obo:CTENO_0000070)
+
+# Class: obo:CTENO_0000073 (M-slash blastomere)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000073 "M-slash blastomere"@en)
+EquivalentClasses(obo:CTENO_0000073 ObjectIntersectionOf(obo:CTENO_0000065 ObjectSomeValuesFrom(obo:RO_0002202 obo:CTENO_0000071)))
+SubClassOf(obo:CTENO_0000073 obo:CTENO_0000065)
+SubClassOf(obo:CTENO_0000073 ObjectSomeValuesFrom(obo:RO_0002202 obo:CTENO_0000071))
+
+# Class: obo:CTENO_0000074 (M-blackslash blastomere)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000074 "M-blackslash blastomere"@en)
+EquivalentClasses(obo:CTENO_0000074 ObjectIntersectionOf(obo:CTENO_0000065 ObjectSomeValuesFrom(obo:RO_0002202 obo:CTENO_0000072)))
+SubClassOf(obo:CTENO_0000074 obo:CTENO_0000065)
+SubClassOf(obo:CTENO_0000074 ObjectSomeValuesFrom(obo:RO_0002202 obo:CTENO_0000072))
+
+# Class: obo:CTENO_0000075 (macromere)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000075 "macromere"@en)
+SubClassOf(obo:CTENO_0000075 obo:CTENO_0000063)
+
+# Class: obo:CTENO_0000076 (1M macromere, 16 cell stage)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000076 "1M macromere, 16 cell stage"@en)
+EquivalentClasses(obo:CTENO_0000076 ObjectIntersectionOf(obo:CTENO_0000085 ObjectSomeValuesFrom(obo:RO_0002207 obo:CTENO_0000081)))
+SubClassOf(obo:CTENO_0000076 obo:CTENO_0000085)
+SubClassOf(obo:CTENO_0000076 ObjectSomeValuesFrom(obo:RO_0002207 obo:CTENO_0000081))
+
+# Class: obo:CTENO_0000078 (2E macromere, 32 cell stage)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000078 "2E macromere, 32 cell stage"@en)
+EquivalentClasses(obo:CTENO_0000078 ObjectIntersectionOf(obo:CTENO_0000087 ObjectSomeValuesFrom(obo:RO_0002207 obo:CTENO_0000086)))
+SubClassOf(obo:CTENO_0000078 obo:CTENO_0000087)
+SubClassOf(obo:CTENO_0000078 ObjectSomeValuesFrom(obo:RO_0002207 obo:CTENO_0000086))
+
+# Class: obo:CTENO_0000079 (3M macromere)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000079 "3M macromere"@en)
+SubClassOf(obo:CTENO_0000079 obo:CTENO_0000088)
+
+# Class: obo:CTENO_0000081 (M macromere, 8 cell stage)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000081 "M macromere, 8 cell stage"@en)
+SubClassOf(obo:CTENO_0000081 obo:CTENO_0000082)
+
+# Class: obo:CTENO_0000082 (macromere, 8 cell stage)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000082 "macromere, 8 cell stage"@en)
+EquivalentClasses(obo:CTENO_0000082 ObjectIntersectionOf(obo:CTENO_0000075 ObjectSomeValuesFrom(obo:RO_0002207 obo:CTENO_0000070)))
+EquivalentClasses(obo:CTENO_0000082 ObjectIntersectionOf(obo:CTENO_0000075 ObjectSomeValuesFrom(obo:RO_0002491 obo:UBERON_0007236)))
+SubClassOf(obo:CTENO_0000082 obo:CTENO_0000075)
+SubClassOf(obo:CTENO_0000082 ObjectSomeValuesFrom(obo:RO_0002207 obo:CTENO_0000070))
+SubClassOf(obo:CTENO_0000082 ObjectSomeValuesFrom(obo:RO_0002491 obo:UBERON_0007236))
+
+# Class: obo:CTENO_0000083 (M-backslash macromere)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000083 "M-backslash macromere"@en)
+EquivalentClasses(obo:CTENO_0000083 ObjectIntersectionOf(obo:CTENO_0000081 ObjectSomeValuesFrom(obo:RO_0002207 obo:CTENO_0000072)))
+SubClassOf(obo:CTENO_0000083 obo:CTENO_0000081)
+SubClassOf(obo:CTENO_0000083 ObjectSomeValuesFrom(obo:RO_0002207 obo:CTENO_0000072))
+
+# Class: obo:CTENO_0000084 (M-slash macromere)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000084 "M-slash macromere"@en)
+EquivalentClasses(obo:CTENO_0000084 ObjectIntersectionOf(obo:CTENO_0000081 ObjectSomeValuesFrom(obo:RO_0002207 obo:CTENO_0000071)))
+SubClassOf(obo:CTENO_0000084 obo:CTENO_0000081)
+SubClassOf(obo:CTENO_0000084 ObjectSomeValuesFrom(obo:RO_0002207 obo:CTENO_0000071))
+
+# Class: obo:CTENO_0000085 (macromere, 16 cell stage)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000085 "macromere, 16 cell stage"@en)
+EquivalentClasses(obo:CTENO_0000085 ObjectIntersectionOf(obo:CTENO_0000075 ObjectSomeValuesFrom(obo:RO_0002207 obo:CTENO_0000082)))
+EquivalentClasses(obo:CTENO_0000085 ObjectIntersectionOf(obo:CTENO_0000075 ObjectSomeValuesFrom(obo:RO_0002491 obo:CTENO_0000116)))
+SubClassOf(obo:CTENO_0000085 obo:CTENO_0000075)
+SubClassOf(obo:CTENO_0000085 ObjectSomeValuesFrom(obo:RO_0002207 obo:CTENO_0000082))
+SubClassOf(obo:CTENO_0000085 ObjectSomeValuesFrom(obo:RO_0002491 obo:CTENO_0000116))
+
+# Class: obo:CTENO_0000086 (1E macromere, 16 cell stage)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000086 "1E macromere, 16 cell stage"@en)
+EquivalentClasses(obo:CTENO_0000086 ObjectIntersectionOf(obo:CTENO_0000085 ObjectSomeValuesFrom(obo:RO_0002207 obo:CTENO_0000064)))
+SubClassOf(obo:CTENO_0000086 obo:CTENO_0000085)
+SubClassOf(obo:CTENO_0000086 ObjectSomeValuesFrom(obo:RO_0002207 obo:CTENO_0000064))
+
+# Class: obo:CTENO_0000087 (macromere, 32 cell stage and above)
+
+AnnotationAssertion(rdfs:comment obo:CTENO_0000087 "32 cell stage refers to time of birth. 2M cells persist")
+AnnotationAssertion(rdfs:label obo:CTENO_0000087 "macromere, 32 cell stage and above"@en)
+EquivalentClasses(obo:CTENO_0000087 ObjectIntersectionOf(obo:CTENO_0000075 ObjectSomeValuesFrom(obo:RO_0002491 obo:CTENO_0000117)))
+SubClassOf(obo:CTENO_0000087 obo:CTENO_0000075)
+SubClassOf(obo:CTENO_0000087 ObjectSomeValuesFrom(obo:RO_0002491 obo:CTENO_0000117))
+
+# Class: obo:CTENO_0000088 (macromere, 60 cell stage)
+
+AnnotationAssertion(rdfs:comment obo:CTENO_0000088 "2M cells persist")
+AnnotationAssertion(rdfs:label obo:CTENO_0000088 "macromere, 60 cell stage"@en)
+EquivalentClasses(obo:CTENO_0000088 ObjectIntersectionOf(obo:CTENO_0000075 ObjectSomeValuesFrom(obo:RO_0002491 obo:CTENO_0000118)))
+SubClassOf(obo:CTENO_0000088 obo:CTENO_0000075)
+SubClassOf(obo:CTENO_0000088 ObjectSomeValuesFrom(obo:RO_0002491 obo:CTENO_0000118))
+
+# Class: obo:CTENO_0000090 (1M-backslash macromere, 16 cell stage)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000090 "1M-backslash macromere, 16 cell stage"@en)
+EquivalentClasses(obo:CTENO_0000090 ObjectIntersectionOf(obo:CTENO_0000076 ObjectSomeValuesFrom(obo:RO_0002207 obo:CTENO_0000083)))
+SubClassOf(obo:CTENO_0000090 obo:CTENO_0000076)
+SubClassOf(obo:CTENO_0000090 ObjectSomeValuesFrom(obo:RO_0002207 obo:CTENO_0000083))
+
+# Class: obo:CTENO_0000091 (1M-slash macromere, 16 cell stage)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000091 "1M-slash macromere, 16 cell stage"@en)
+EquivalentClasses(obo:CTENO_0000091 ObjectIntersectionOf(obo:CTENO_0000076 ObjectSomeValuesFrom(obo:RO_0002207 obo:CTENO_0000073)))
+SubClassOf(obo:CTENO_0000091 obo:CTENO_0000076)
+SubClassOf(obo:CTENO_0000091 ObjectSomeValuesFrom(obo:RO_0002207 obo:CTENO_0000073))
+
+# Class: obo:CTENO_0000092 (2M-slash macromere)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000092 "2M-slash macromere"@en)
+EquivalentClasses(obo:CTENO_0000092 ObjectIntersectionOf(obo:CTENO_0000067 ObjectSomeValuesFrom(obo:RO_0002207 obo:CTENO_0000091)))
+SubClassOf(obo:CTENO_0000092 obo:CTENO_0000067)
+SubClassOf(obo:CTENO_0000092 ObjectSomeValuesFrom(obo:RO_0002207 obo:CTENO_0000091))
+
+# Class: obo:CTENO_0000093 (2M-backslash macromere)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000093 "2M-backslash macromere"@en)
+EquivalentClasses(obo:CTENO_0000093 ObjectIntersectionOf(obo:CTENO_0000067 ObjectSomeValuesFrom(obo:RO_0002207 obo:CTENO_0000090)))
+SubClassOf(obo:CTENO_0000093 obo:CTENO_0000067)
+SubClassOf(obo:CTENO_0000093 ObjectSomeValuesFrom(obo:RO_0002207 obo:CTENO_0000090))
+
+# Class: obo:CTENO_0000094 (3M-slash macromere, 60 cell stage)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000094 "3M-slash macromere, 60 cell stage"@en)
+SubClassOf(obo:CTENO_0000094 obo:CTENO_0000079)
+
+# Class: obo:CTENO_0000095 (3M-backslash macromere, 30 cell stage)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000095 "3M-backslash macromere, 30 cell stage"@en)
+SubClassOf(obo:CTENO_0000095 obo:CTENO_0000079)
+
+# Class: obo:CTENO_0000096 (micromere, 16 cell stage)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000096 "micromere, 16 cell stage"@en)
+EquivalentClasses(obo:CTENO_0000096 ObjectIntersectionOf(obo:CTENO_0000066 ObjectSomeValuesFrom(obo:RO_0002207 obo:CTENO_0000082)))
+EquivalentClasses(obo:CTENO_0000096 ObjectIntersectionOf(obo:CTENO_0000066 ObjectSomeValuesFrom(obo:RO_0002491 obo:CTENO_0000116)))
+SubClassOf(obo:CTENO_0000096 obo:CTENO_0000066)
+SubClassOf(obo:CTENO_0000096 ObjectSomeValuesFrom(obo:RO_0002207 obo:CTENO_0000082))
+SubClassOf(obo:CTENO_0000096 ObjectSomeValuesFrom(obo:RO_0002491 obo:CTENO_0000116))
+
+# Class: obo:CTENO_0000097 (micromere, 32 cell stage)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000097 "micromere, 32 cell stage"@en)
+EquivalentClasses(obo:CTENO_0000097 ObjectIntersectionOf(obo:CTENO_0000066 ObjectSomeValuesFrom(obo:RO_0002491 obo:CTENO_0000117)))
+SubClassOf(obo:CTENO_0000097 obo:CTENO_0000066)
+SubClassOf(obo:CTENO_0000097 ObjectSomeValuesFrom(obo:RO_0002491 obo:CTENO_0000117))
+
+# Class: obo:CTENO_0000098 (micromere, 60 cell stage)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000098 "micromere, 60 cell stage"@en)
+EquivalentClasses(obo:CTENO_0000098 ObjectIntersectionOf(obo:CTENO_0000066 ObjectSomeValuesFrom(obo:RO_0002491 obo:CTENO_0000118)))
+SubClassOf(obo:CTENO_0000098 obo:CTENO_0000066)
+SubClassOf(obo:CTENO_0000098 ObjectSomeValuesFrom(obo:RO_0002207 obo:CTENO_0000102))
+SubClassOf(obo:CTENO_0000098 ObjectSomeValuesFrom(obo:RO_0002491 obo:CTENO_0000118))
+
+# Class: obo:CTENO_0000099 (e1 micromere)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000099 "e1 micromere"@en)
+EquivalentClasses(obo:CTENO_0000099 ObjectIntersectionOf(obo:CTENO_0000096 ObjectSomeValuesFrom(obo:RO_0002207 obo:CTENO_0000064)))
+SubClassOf(obo:CTENO_0000099 obo:CTENO_0000096)
+SubClassOf(obo:CTENO_0000099 ObjectSomeValuesFrom(obo:RO_0002207 obo:CTENO_0000064))
+
+# Class: obo:CTENO_0000100 (m1 micromere)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000100 "m1 micromere"@en)
+EquivalentClasses(obo:CTENO_0000100 ObjectIntersectionOf(obo:CTENO_0000096 ObjectSomeValuesFrom(obo:RO_0002207 obo:CTENO_0000081)))
+SubClassOf(obo:CTENO_0000100 obo:CTENO_0000096)
+SubClassOf(obo:CTENO_0000100 ObjectSomeValuesFrom(obo:RO_0002207 obo:CTENO_0000081))
+
+# Class: obo:CTENO_0000101 (m2 micromere)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000101 "m2 micromere"@en)
+EquivalentClasses(obo:CTENO_0000101 ObjectIntersectionOf(obo:CTENO_0000097 ObjectSomeValuesFrom(obo:RO_0002207 obo:CTENO_0000076)))
+SubClassOf(obo:CTENO_0000101 obo:CTENO_0000097)
+SubClassOf(obo:CTENO_0000101 ObjectSomeValuesFrom(obo:RO_0002207 obo:CTENO_0000076))
+
+# Class: obo:CTENO_0000102 (m11 micromere)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000102 "m11 micromere"@en)
+SubClassOf(obo:CTENO_0000102 obo:CTENO_0000097)
+SubClassOf(obo:CTENO_0000102 ObjectSomeValuesFrom(obo:RO_0002207 obo:CTENO_0000100))
+
+# Class: obo:CTENO_0000103 (m12 micromere)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000103 "m12 micromere"@en)
+SubClassOf(obo:CTENO_0000103 obo:CTENO_0000097)
+SubClassOf(obo:CTENO_0000103 ObjectSomeValuesFrom(obo:RO_0002207 obo:CTENO_0000100))
+
+# Class: obo:CTENO_0000104 (e2 micromere)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000104 "e2 micromere"@en)
+EquivalentClasses(obo:CTENO_0000104 ObjectIntersectionOf(obo:CTENO_0000097 ObjectSomeValuesFrom(obo:RO_0002207 obo:CTENO_0000086)))
+SubClassOf(obo:CTENO_0000104 obo:CTENO_0000097)
+SubClassOf(obo:CTENO_0000104 ObjectSomeValuesFrom(obo:RO_0002207 obo:CTENO_0000086))
+
+# Class: obo:CTENO_0000105 (e11 micromere)
+
+AnnotationAssertion(rdfs:comment obo:CTENO_0000105 "e11 and m11 lie closest to sagittal plane")
+AnnotationAssertion(rdfs:label obo:CTENO_0000105 "e11 micromere"@en)
+SubClassOf(obo:CTENO_0000105 obo:CTENO_0000097)
+SubClassOf(obo:CTENO_0000105 ObjectSomeValuesFrom(obo:RO_0002207 obo:CTENO_0000099))
+
+# Class: obo:CTENO_0000106 (e12 micromere)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000106 "e12 micromere"@en)
+SubClassOf(obo:CTENO_0000106 obo:CTENO_0000097)
+SubClassOf(obo:CTENO_0000106 ObjectSomeValuesFrom(obo:RO_0002207 obo:CTENO_0000099))
+
+# Class: obo:CTENO_0000107 (m21 micromere)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000107 "m21 micromere"@en)
+SubClassOf(obo:CTENO_0000107 obo:CTENO_0000098)
+SubClassOf(obo:CTENO_0000107 ObjectSomeValuesFrom(obo:RO_0002207 obo:CTENO_0000101))
+
+# Class: obo:CTENO_0000108 (m22 micromere)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000108 "m22 micromere"@en)
+SubClassOf(obo:CTENO_0000108 obo:CTENO_0000098)
+SubClassOf(obo:CTENO_0000108 ObjectSomeValuesFrom(obo:RO_0002207 obo:CTENO_0000101))
+
+# Class: obo:CTENO_0000109 (m121 micromere)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000109 "m121 micromere"@en)
+SubClassOf(obo:CTENO_0000109 obo:CTENO_0000098)
+SubClassOf(obo:CTENO_0000109 ObjectSomeValuesFrom(obo:RO_0002207 obo:CTENO_0000103))
+
+# Class: obo:CTENO_0000110 (m122 micromere)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000110 "m122 micromere"@en)
+SubClassOf(obo:CTENO_0000110 obo:CTENO_0000098)
+SubClassOf(obo:CTENO_0000110 ObjectSomeValuesFrom(obo:RO_0002207 obo:CTENO_0000103))
+
+# Class: obo:CTENO_0000111 (e3 micromere)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000111 "e3 micromere"@en)
+EquivalentClasses(obo:CTENO_0000111 ObjectIntersectionOf(obo:CTENO_0000098 ObjectSomeValuesFrom(obo:RO_0002207 obo:CTENO_0000078)))
+SubClassOf(obo:CTENO_0000111 obo:CTENO_0000098)
+SubClassOf(obo:CTENO_0000111 ObjectSomeValuesFrom(obo:RO_0002207 obo:CTENO_0000078))
+
+# Class: obo:CTENO_0000112 (e22 micromere)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000112 "e22 micromere"@en)
+SubClassOf(obo:CTENO_0000112 obo:CTENO_0000098)
+
+# Class: obo:CTENO_0000113 (e21 micromere)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000113 "e21 micromere"@en)
+SubClassOf(obo:CTENO_0000113 obo:CTENO_0000098)
+
+# Class: obo:CTENO_0000114 (m111 micromere)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000114 "m111 micromere"@en)
+SubClassOf(obo:CTENO_0000114 obo:CTENO_0000098)
+
+# Class: obo:CTENO_0000115 (m112 micromere)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000115 "m112 micromere"@en)
+SubClassOf(obo:CTENO_0000115 obo:CTENO_0000098)
+
+# Class: obo:CTENO_0000116 (ctenophore 16 cell stage)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000116 "ctenophore 16 cell stage"@en)
+SubClassOf(obo:CTENO_0000116 obo:UBERON_0000067)
+SubClassOf(obo:CTENO_0000116 ObjectSomeValuesFrom(obo:RO_0002087 obo:UBERON_0007236))
+
+# Class: obo:CTENO_0000117 (ctenophore 32 cell stage)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000117 "ctenophore 32 cell stage"@en)
+SubClassOf(obo:CTENO_0000117 obo:UBERON_0000067)
+SubClassOf(obo:CTENO_0000117 ObjectSomeValuesFrom(obo:RO_0002087 obo:CTENO_0000116))
+
+# Class: obo:CTENO_0000118 (ctenophore 60 cell stage)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000118 "ctenophore 60 cell stage"@en)
+SubClassOf(obo:CTENO_0000118 obo:UBERON_0000067)
+
+# Class: obo:CTENO_0000119 (micromere, formed during gastulation)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000119 "micromere, formed during gastulation"@en)
+EquivalentClasses(obo:CTENO_0000119 ObjectIntersectionOf(obo:CTENO_0000066 ObjectSomeValuesFrom(obo:BFO_0000068 obo:UBERON_0000109)))
+SubClassOf(obo:CTENO_0000119 obo:CTENO_0000066)
+SubClassOf(obo:CTENO_0000119 ObjectSomeValuesFrom(obo:BFO_0000068 obo:UBERON_0000109))
+
+# Class: obo:CTENO_0000120 (tentacle epithelium)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000120 "tentacle epithelium"@en)
+EquivalentClasses(obo:CTENO_0000120 ObjectIntersectionOf(obo:UBERON_0000483 ObjectSomeValuesFrom(obo:BFO_0000050 obo:CTENO_0000018)))
+SubClassOf(obo:CTENO_0000120 obo:UBERON_0000483)
+SubClassOf(obo:CTENO_0000120 ObjectSomeValuesFrom(obo:BFO_0000050 obo:CTENO_0000018))
+SubClassOf(obo:CTENO_0000120 ObjectSomeValuesFrom(obo:RO_0002254 obo:CTENO_0000099))
+
+# Class: obo:CTENO_0000121 (tentacle sheath)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000121 "tentacle sheath"@en)
+SubClassOf(obo:CTENO_0000121 obo:UBERON_0004923)
+SubClassOf(obo:CTENO_0000121 ObjectSomeValuesFrom(obo:BFO_0000050 obo:CTENO_0000018))
+
+# Class: obo:CTENO_0000122 (ctenophore pharynx)
+
+AnnotationAssertion(obo:IAO_0000115 obo:CTENO_0000122 "An ectodermal structure which connects the mouth to the endodermal component of the gut, deep inside the animal")
+AnnotationAssertion(rdfs:label obo:CTENO_0000122 "ctenophore pharynx"@en)
+SubClassOf(obo:CTENO_0000122 obo:UBERON_0006562)
+SubClassOf(obo:CTENO_0000122 ObjectSomeValuesFrom(obo:RO_0002202 obo:CTENO_0000156))
+
+# Class: obo:CTENO_0000123 (tentacle sheath cell)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000123 "tentacle sheath cell"@en)
+EquivalentClasses(obo:CTENO_0000123 ObjectIntersectionOf(obo:CL_0000000 ObjectSomeValuesFrom(obo:BFO_0000050 obo:CTENO_0000121)))
+SubClassOf(obo:CTENO_0000123 obo:CL_0000000)
+SubClassOf(obo:CTENO_0000123 obo:GO_0005623)
+SubClassOf(obo:CTENO_0000123 ObjectSomeValuesFrom(obo:BFO_0000050 obo:CTENO_0000121))
+SubClassOf(obo:CTENO_0000123 ObjectSomeValuesFrom(obo:RO_0002202 obo:CTENO_0000099))
+
+# Class: obo:CTENO_0000124 (longitudinal mesogleal muscle cell)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000124 "longitudinal mesogleal muscle cell"@en)
+EquivalentClasses(obo:CTENO_0000124 ObjectIntersectionOf(obo:CL_0000000 ObjectSomeValuesFrom(obo:BFO_0000050 obo:CTENO_0000039)))
+SubClassOf(obo:CTENO_0000124 obo:CL_0000187)
+SubClassOf(obo:CTENO_0000124 ObjectSomeValuesFrom(obo:BFO_0000050 obo:CTENO_0000039))
+SubClassOf(obo:CTENO_0000124 ObjectSomeValuesFrom(obo:RO_0002202 obo:CTENO_0000068))
+
+# Class: obo:CTENO_0000125 (radial mesogleal muscle cell)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000125 "radial mesogleal muscle cell"@en)
+EquivalentClasses(obo:CTENO_0000125 ObjectIntersectionOf(obo:CL_0000000 ObjectSomeValuesFrom(obo:BFO_0000050 obo:CTENO_0000041)))
+SubClassOf(obo:CTENO_0000125 obo:CL_0000187)
+SubClassOf(obo:CTENO_0000125 ObjectSomeValuesFrom(obo:BFO_0000050 obo:CTENO_0000041))
+SubClassOf(obo:CTENO_0000125 ObjectSomeValuesFrom(obo:RO_0002202 obo:CTENO_0000068))
+
+# Class: obo:CTENO_0000126 (stellate mesenchymal cell)
+
+AnnotationAssertion(obo:IAO_0000115 obo:CTENO_0000126 "A multipolar mesenchymal cell found in the stellate mesenchyme. May be phagocytic. absent in derivatives of 2M? macromeres.")
+AnnotationAssertion(rdfs:label obo:CTENO_0000126 "stellate mesenchymal cell"@en)
+SubClassOf(obo:CTENO_0000126 obo:CL_0000134)
+SubClassOf(obo:CTENO_0000126 ObjectSomeValuesFrom(obo:RO_0002202 ObjectUnionOf(obo:CTENO_0000067 obo:CTENO_0000068)))
+
+# Class: obo:CTENO_0000127 (tentacle muscle cell)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000127 "tentacle muscle cell"@en)
+EquivalentClasses(obo:CTENO_0000127 ObjectIntersectionOf(obo:CL_0000187 ObjectSomeValuesFrom(obo:BFO_0000050 obo:CTENO_0000018)))
+SubClassOf(obo:CTENO_0000127 obo:CL_0000187)
+SubClassOf(obo:CTENO_0000127 ObjectSomeValuesFrom(obo:BFO_0000050 obo:CTENO_0000018))
+
+# Class: obo:CTENO_0000128 (longitudinal pharyngeal muscle cell)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000128 "longitudinal pharyngeal muscle cell"@en)
+SubClassOf(obo:CTENO_0000128 obo:CL_0000187)
+SubClassOf(obo:CTENO_0000128 ObjectSomeValuesFrom(obo:RO_0002202 obo:CTENO_0000068))
+
+# Class: obo:CTENO_0000130 (trans-tentacular muscle cell)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000130 "trans-tentacular muscle cell"@en)
+EquivalentClasses(obo:CTENO_0000130 ObjectIntersectionOf(obo:CL_0000000 ObjectSomeValuesFrom(obo:BFO_0000050 obo:CTENO_0000043)))
+SubClassOf(obo:CTENO_0000130 obo:CL_0000187)
+SubClassOf(obo:CTENO_0000130 ObjectSomeValuesFrom(obo:BFO_0000050 obo:CTENO_0000043))
+SubClassOf(obo:CTENO_0000130 ObjectSomeValuesFrom(obo:RO_0002202 obo:CTENO_0000067))
+
+# Class: obo:CTENO_0000131 (apical organ ctene row muscle)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000131 "apical organ ctene row muscle"@en)
+SubClassOf(obo:CTENO_0000131 obo:CL_0000187)
+SubClassOf(obo:CTENO_0000131 ObjectSomeValuesFrom(obo:RO_0002202 obo:CTENO_0000068))
+
+# Class: obo:CTENO_0000132 (E-lineage cell)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000132 "E-lineage cell"@en)
+EquivalentClasses(obo:CTENO_0000132 ObjectIntersectionOf(obo:CL_0000000 ObjectSomeValuesFrom(obo:RO_0002202 obo:CTENO_0000064)))
+SubClassOf(obo:CTENO_0000132 obo:CL_0000000)
+SubClassOf(obo:CTENO_0000132 obo:GO_0005623)
+SubClassOf(obo:CTENO_0000132 ObjectSomeValuesFrom(obo:RO_0002202 obo:CTENO_0000064))
+
+# Class: obo:CTENO_0000133 (M-lineage cell)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000133 "M-lineage cell"@en)
+EquivalentClasses(obo:CTENO_0000133 ObjectIntersectionOf(obo:CL_0000000 ObjectSomeValuesFrom(obo:RO_0002202 obo:CTENO_0000081)))
+SubClassOf(obo:CTENO_0000133 obo:CL_0000000)
+SubClassOf(obo:CTENO_0000133 obo:GO_0005623)
+SubClassOf(obo:CTENO_0000133 ObjectSomeValuesFrom(obo:RO_0002202 obo:CTENO_0000081))
+
+# Class: obo:CTENO_0000134 (lithocyte progenitor)
+
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:CTENO_0000134 "reserve lithocyte")
+AnnotationAssertion(rdfs:label obo:CTENO_0000134 "lithocyte progenitor"@en)
+SubClassOf(obo:CTENO_0000134 obo:CL_0000066)
+SubClassOf(obo:CTENO_0000134 obo:CL_0002319)
+SubClassOf(obo:CTENO_0000134 ObjectSomeValuesFrom(obo:BFO_0000050 obo:CTENO_0000055))
+SubClassOf(obo:CTENO_0000134 ObjectSomeValuesFrom(obo:RO_0002202 obo:CTENO_0000068))
+
+# Class: obo:CTENO_0000135 (adesophageal plane)
+
+AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:CTENO_0000135 "esophageal plane")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:CTENO_0000135 "sagittal plane")
+AnnotationAssertion(rdfs:comment obo:CTENO_0000135 "plane of first cleavage (Freeman 1977)")
+AnnotationAssertion(rdfs:label obo:CTENO_0000135 "adesophageal plane"@en)
+SubClassOf(obo:CTENO_0000135 obo:BSPO_0000400)
+SubClassOf(obo:CTENO_0000135 ObjectSomeValuesFrom(obo:BSPO_0015005 obo:CTENO_0000140))
+
+# Class: obo:CTENO_0000136 (tentacular axis)
+
+AnnotationAssertion(rdfs:comment obo:CTENO_0000136 "The plane of second cleavage includes the tentacular axis")
+AnnotationAssertion(rdfs:label obo:CTENO_0000136 "tentacular axis"@en)
+SubClassOf(obo:CTENO_0000136 obo:BSPO_0000010)
+
+# Class: obo:CTENO_0000137 (ctene row)
+
+AnnotationAssertion(obo:IAO_0000115 obo:CTENO_0000137 "A row that is composed of individual ctene plates, which are arranged in longitudinal rows parallel to the oral–aboral axis")
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:CTENO_0000137 "comb row")
+AnnotationAssertion(rdfs:label obo:CTENO_0000137 "ctene row"@en)
+SubClassOf(obo:CTENO_0000137 obo:UBERON_0000477)
+SubClassOf(obo:CTENO_0000137 ObjectSomeValuesFrom(obo:RO_0002473 obo:CTENO_0000001))
+
+# Class: obo:CTENO_0000138 (apical organ statocyst)
+
+AnnotationAssertion(rdfs:comment obo:CTENO_0000138 "a balance sensor consisting of a statolith, a solid particle supported on four bundles of cilia, called \"balancers\", that sense its orientation")
+AnnotationAssertion(rdfs:label obo:CTENO_0000138 "apical organ statocyst"@en)
+EquivalentClasses(obo:CTENO_0000138 ObjectIntersectionOf(obo:UBERON_0006583 ObjectSomeValuesFrom(obo:BFO_0000050 obo:CTENO_0000017)))
+SubClassOf(obo:CTENO_0000138 obo:UBERON_0006583)
+SubClassOf(obo:CTENO_0000138 ObjectSomeValuesFrom(obo:BFO_0000050 obo:CTENO_0000017))
+SubClassOf(obo:CTENO_0000138 ObjectSomeValuesFrom(obo:BFO_0000051 obo:CTENO_0000056))
+
+# Class: obo:CTENO_0000139 (ciliated groove)
+
+AnnotationAssertion(obo:IAO_0000115 obo:CTENO_0000139 "A groove that runs along the surface of the animal to each of the eight ctene rows")
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:CTENO_0000139 "ciliated furrow")
+AnnotationAssertion(rdfs:label obo:CTENO_0000139 "ciliated groove"@en)
+SubClassOf(obo:CTENO_0000139 obo:UBERON_0006846)
+SubClassOf(obo:CTENO_0000139 ObjectSomeValuesFrom(obo:RO_0002150 obo:CTENO_0000137))
+SubClassOf(obo:CTENO_0000139 ObjectSomeValuesFrom(obo:RO_0002254 obo:CTENO_0000099))
+
+# Class: obo:CTENO_0000140 (tentacular plane)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000140 "tentacular plane"@en)
+SubClassOf(obo:CTENO_0000140 obo:BSPO_0000400)
+
+# Class: obo:CTENO_0000141 (slash quadrant)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000141 "slash quadrant"@en)
+EquivalentClasses(obo:CTENO_0000141 ObjectIntersectionOf(obo:CTENO_0000062 ObjectSomeValuesFrom(obo:RO_0002473 ObjectIntersectionOf(obo:CL_0000000 ObjectSomeValuesFrom(obo:RO_0002202 obo:CTENO_0000071)))))
+SubClassOf(obo:CTENO_0000141 obo:CTENO_0000062)
+SubClassOf(obo:CTENO_0000141 ObjectSomeValuesFrom(obo:RO_0002473 ObjectIntersectionOf(obo:CL_0000000 ObjectSomeValuesFrom(obo:RO_0002202 obo:CTENO_0000071))))
+
+# Class: obo:CTENO_0000142 (backslash quadrant)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000142 "backslash quadrant"@en)
+EquivalentClasses(obo:CTENO_0000142 ObjectIntersectionOf(obo:CTENO_0000062 ObjectSomeValuesFrom(obo:RO_0002473 ObjectIntersectionOf(obo:CL_0000000 ObjectSomeValuesFrom(obo:RO_0002202 obo:CTENO_0000072)))))
+SubClassOf(obo:CTENO_0000142 obo:CTENO_0000062)
+SubClassOf(obo:CTENO_0000142 ObjectSomeValuesFrom(obo:RO_0002473 ObjectIntersectionOf(obo:CL_0000000 ObjectSomeValuesFrom(obo:RO_0002202 obo:CTENO_0000072))))
+
+# Class: obo:CTENO_0000143 (tentacle bulb)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000143 "tentacle bulb"@en)
+SubClassOf(obo:CTENO_0000143 obo:UBERON_0000479)
+SubClassOf(obo:CTENO_0000143 ObjectSomeValuesFrom(obo:BFO_0000050 obo:CTENO_0000152))
+SubClassOf(obo:CTENO_0000143 ObjectSomeValuesFrom(obo:RO_0002131 obo:CTENO_0000140))
+SubClassOf(obo:CTENO_0000143 ObjectSomeValuesFrom(obo:RO_0002254 obo:CTENO_0000099))
+
+# Class: obo:CTENO_0000145 (polar field)
+
+AnnotationAssertion(obo:IAO_0000115 obo:CTENO_0000145 "an ectodermal structure emanating from the apical organ along the esophageal axis.")
+AnnotationAssertion(rdfs:label obo:CTENO_0000145 "polar field"@en)
+SubClassOf(obo:CTENO_0000145 obo:UBERON_0000475)
+
+# Class: obo:CTENO_0000146 (polar field cell)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000146 "polar field cell"@en)
+EquivalentClasses(obo:CTENO_0000146 ObjectIntersectionOf(obo:CL_0000000 ObjectSomeValuesFrom(obo:BFO_0000050 obo:CTENO_0000145)))
+SubClassOf(obo:CTENO_0000146 obo:CL_0000000)
+SubClassOf(obo:CTENO_0000146 obo:GO_0005623)
+SubClassOf(obo:CTENO_0000146 ObjectSomeValuesFrom(obo:BFO_0000050 obo:CTENO_0000145))
+SubClassOf(obo:CTENO_0000146 ObjectSomeValuesFrom(obo:RO_0002202 obo:CTENO_0000102))
+
+# Class: obo:CTENO_0000147 (esophague-tentacle muscle cell)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000147 "esophague-tentacle muscle cell"@en)
+SubClassOf(obo:CTENO_0000147 obo:CL_0000187)
+SubClassOf(obo:CTENO_0000147 ObjectSomeValuesFrom(obo:RO_0002202 obo:CTENO_0000093))
+
+# Class: obo:CTENO_0000148 (anal canal cell)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000148 "anal canal cell"@en)
+EquivalentClasses(obo:CTENO_0000148 ObjectIntersectionOf(obo:CL_0000000 ObjectSomeValuesFrom(obo:BFO_0000050 obo:UBERON_0000159)))
+SubClassOf(obo:CTENO_0000148 obo:CL_0000000)
+SubClassOf(obo:CTENO_0000148 obo:GO_0005623)
+SubClassOf(obo:CTENO_0000148 ObjectSomeValuesFrom(obo:BFO_0000050 obo:UBERON_0000159))
+SubClassOf(obo:CTENO_0000148 ObjectSomeValuesFrom(obo:RO_0002202 obo:CTENO_0000093))
+
+# Class: obo:CTENO_0000149 (tentacle-apical organ muscle cell)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000149 "tentacle-apical organ muscle cell"@en)
+SubClassOf(obo:CTENO_0000149 obo:CL_0000187)
+SubClassOf(obo:CTENO_0000149 ObjectSomeValuesFrom(obo:RO_0002202 obo:CTENO_0000092))
+
+# Class: obo:CTENO_0000150 (oral side of organism)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000150 "oral side of organism"@en)
+SubClassOf(obo:CTENO_0000150 obo:UBERON_0000475)
+
+# Class: obo:CTENO_0000151 (aboral part of organism)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000151 "aboral part of organism"@en)
+SubClassOf(obo:CTENO_0000151 obo:UBERON_0000475)
+
+# Class: obo:CTENO_0000152 (tentacle apparatus)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000152 "tentacle apparatus"@en)
+SubClassOf(obo:CTENO_0000152 obo:UBERON_0000477)
+SubClassOf(obo:CTENO_0000152 ObjectSomeValuesFrom(obo:BFO_0000051 obo:CTENO_0000018))
+SubClassOf(obo:CTENO_0000152 ObjectSomeValuesFrom(obo:BFO_0000051 obo:CTENO_0000143))
+
+# Class: obo:CTENO_0000153 (endodermal canal)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000153 "endodermal canal"@en)
+SubClassOf(obo:CTENO_0000153 obo:UBERON_0004111)
+
+# Class: obo:CTENO_0000154 (mixed E and M lineage structure)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000154 "mixed E and M lineage structure"@en)
+EquivalentClasses(obo:CTENO_0000154 ObjectIntersectionOf(obo:UBERON_0000061 ObjectSomeValuesFrom(obo:RO_0002254 obo:CTENO_0000064) ObjectSomeValuesFrom(obo:RO_0002254 obo:CTENO_0000081)))
+SubClassOf(obo:CTENO_0000154 obo:UBERON_0000061)
+SubClassOf(obo:CTENO_0000154 ObjectSomeValuesFrom(obo:RO_0002254 obo:CTENO_0000064))
+SubClassOf(obo:CTENO_0000154 ObjectSomeValuesFrom(obo:RO_0002254 obo:CTENO_0000081))
+
+# Class: obo:CTENO_0000155 (pharyngeal muscle)
+
+AnnotationAssertion(rdfs:label obo:CTENO_0000155 "pharyngeal muscle"@en)
+SubClassOf(obo:CTENO_0000155 obo:UBERON_0001630)
+
+# Class: obo:CTENO_0000156 (ctenophore blastopore)
+
+AnnotationAssertion(rdfs:comment obo:CTENO_0000156 "Genes: MlLhx1/5")
+AnnotationAssertion(rdfs:label obo:CTENO_0000156 "ctenophore blastopore"@en)
+SubClassOf(obo:CTENO_0000156 obo:UBERON_0000100)
+
+
+SubClassOf(ObjectIntersectionOf(obo:CTENO_0000018 ObjectSomeValuesFrom(obo:BFO_0000050 obo:NCBITaxon_37539)) owl:Nothing)
+)

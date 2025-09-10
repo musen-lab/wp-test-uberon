@@ -1,0 +1,2983 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-pba.owl#"
+     xml:base="http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-pba.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-pba.owl">
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/uberon/releases/2025-08-15/bridge/uberon-bridge-to-pba.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000589 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000589"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000050 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000050"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002162 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002162"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9443 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000955 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000955"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000956 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000956"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001722 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001722"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001873 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001873"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001874 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001874"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001875 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001875"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001876 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001876"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001881 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001881"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001882 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001882"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001883 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001883"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001887 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001887"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001893 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001893"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001894 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001894"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001897 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001897"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001899 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001899"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001923 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001923"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001926 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001926"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001950 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001950"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001954 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001954"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002023"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002191 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002191"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002316 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002316"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002421 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002421"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002435 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002435"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002476 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002476"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002477 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002477"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002479 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002479"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002728 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002728"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002743 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002743"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002883 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002883"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002884 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002884"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002886 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002886"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002890 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002890"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0003053 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0003053"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0003881 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0003881"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0003882 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0003882"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0003883 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0003883"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0003884 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0003884"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0004006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0004006"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0004023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0004023"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0004024 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0004024"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0004025 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0004025"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0004026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0004026"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0004035 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0004035"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0004703 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0004703"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0004922 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0004922"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0005343 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005343"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0005382 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005382"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0005390 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005390"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0005391 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005391"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0005392 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005392"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0005393 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005393"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0005394 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005394"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0005395 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005395"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0005403 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005403"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0006083 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0006083"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0006107 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0006107"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0006473 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0006473"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0007224 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0007224"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0007225 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0007225"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0008881 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0008881"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0010010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0010010"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0010011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0010011"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0012170 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0012170"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0012171 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0012171"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0013606 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0013606"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0013607 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0013607"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0014548 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0014548"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0014549 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0014549"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0014550 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0014550"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0014551 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0014551"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0014552 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0014552"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0014553 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0014553"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0014554 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0014554"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0014555 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0014555"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0014556 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0014556"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0014557 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0014557"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0014558 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0014558"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0014559 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0014559"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0014560 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0014560"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0014935 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0014935"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0016540 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0016540"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0034673 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0034673"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0034989 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0034989"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0035027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0035027"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0035028 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0035028"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0035154 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0035154"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0035155 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0035155"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0035156 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0035156"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0035157 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0035157"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0035158 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0035158"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_8440010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_8440010"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_8440012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_8440012"/>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_10026 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_10026">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_8440010"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>Brodmann (1909) area 17 (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_10039 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_10039">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0006473"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>Brodmann (1909) area 18 (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_10054 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_10054">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002191"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>subiculum (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_10058 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_10058">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0003881"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>CA1 field of hippocampus (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_10059 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_10059">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0014552"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>CA1 stratum oriens (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_10060 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_10060">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0014548"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>pyramidal layer of CA1 (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_10061 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_10061">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0014554"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>CA1 stratum radiatum (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_10062 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_10062">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0014557"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>CA1 stratum lacunosum moleculare (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_10063 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_10063">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0003882"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>CA2 field of hippocampus (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_10064 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_10064">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0014551"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>CA2 stratum oriens (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_10065 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_10065">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0014549"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>pyramidal layer of CA2 (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_10066 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_10066">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0014555"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>CA2 stratum radiatum (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_10067 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_10067">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0014558"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>CA2 stratum lacunosum moleculare (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_10068 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_10068">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0003883"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>CA3 field of hippocampus (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_10069 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_10069">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0014553"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>CA3 stratum oriens (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_10070 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_10070">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0014550"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>pyramidal layer of CA3 (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_10071 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_10071">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0014560"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>CA3 stratum lucidum (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_10072 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_10072">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0014556"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>CA3 stratum radiatum (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_10073 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_10073">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0014559"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>CA3 stratum lacunosum moleculare (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_10074 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_10074">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0003884"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>CA4 field of hippocampus (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_10080 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_10080">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002435"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>striatum (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_10081 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_10081">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0005382"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>dorsal striatum (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_10082 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_10082">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001873"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>caudate nucleus (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_10086 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_10086">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001874"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>putamen (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_10091 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_10091">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0005403"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>ventral striatum (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_10092 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_10092">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001882"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>nucleus accumbens (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_10093 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_10093">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0012170"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>core of nucleus accumbens (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_10094 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_10094">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0012171"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>shell of nucleus accumbens (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_10095 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_10095">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001881"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>island of Calleja (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_10096 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_10096">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001883"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>olfactory tubercle (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_10097 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_10097">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001875"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>globus pallidus (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_10098 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_10098">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002477"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>medial globus pallidus (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_10099 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_10099">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002476"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>lateral globus pallidus (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_10102 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_10102">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001887"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>internal capsule of telencephalon (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_10103 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_10103">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002890"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>anterior amygdaloid area (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_10116 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_10116">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002886"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>lateral amygdaloid nucleus (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_10121 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_10121">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002883"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>central amygdaloid nucleus (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_10125 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_10125">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001722"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>medial vestibular nucleus (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_10132 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_10132">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002884"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>intercalated amygdaloid nuclei (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_10135 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_10135">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0034673"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>amygdalohippocampal area (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_10136 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_10136">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0035027"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>amygdalohippocampal area, magnocellular division (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_10137 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_10137">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0035028"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>amygdalohippocampal area, parvocellular division (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_10140 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_10140">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0034989"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>amygdalopiriform transition area (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_10141 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_10141">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0010010"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>basal nucleus of telencephalon (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_128011350 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_128011350">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001893"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>telencephalon (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_128011354 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_128011354">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000956"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>cerebral cortex (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_128011876 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_128011876">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0007225"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>lateral entorhinal cortex (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_128011936 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_128011936">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0007224"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>medial entorhinal cortex (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_128012080 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_128012080">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0006083"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>perirhinal cortex (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_128012244 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_128012244">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001954"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>Ammon&apos;s horn (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_128012354 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_128012354">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002191"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>subiculum (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_128012584 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_128012584">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0008881"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>rostral migratory stream (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_128012596 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_128012596">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_8440012"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>cerebral nuclei (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_128012616 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_128012616">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001923"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>central medial nucleus (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_128012678 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_128012678">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0006107"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>basolateral amygdaloid nuclear complex (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_128012818 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_128012818">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004023"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>ganglionic eminence (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_128012822 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_128012822">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004025"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>lateral ganglionic eminence (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_128012834 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_128012834">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004024"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>medial ganglionic eminence (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_128012846 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_128012846">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004026"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>caudal ganglionic eminence (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_128012960 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_128012960">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002023"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>claustrum of brain (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_128012976 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_128012976">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002743"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>basal forebrain (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_128013010 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_128013010">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001894"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>diencephalon (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_128013014 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_128013014">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001897"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>dorsal plus ventral thalamus (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_128013018 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_128013018">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004703"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>dorsal thalamus (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_128013070 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_128013070">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001926"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>lateral geniculate body (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_128013074 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_128013074">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002479"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>dorsal lateral geniculate nucleus (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_128013078 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_128013078">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0013606"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>magnocellular layer of dorsal nucleus of lateral geniculate body (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_128013091 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_128013091">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0013607"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>parvocellular layer of dorsal nucleus of lateral geniculate body (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_128013147 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_128013147">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001899"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>epithalamus (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_12986 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_12986">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0035154"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>dorsolateral prefrontal cortex layer 2 (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_12987 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_12987">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0035155"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>dorsolateral prefrontal cortex layer 3 (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_12988 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_12988">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0035156"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>dorsolateral prefrontal cortex layer 4 (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_12989 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_12989">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0035157"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>dorsolateral prefrontal cortex layer 5 (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_12990 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_12990">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0035158"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>dorsolateral prefrontal cortex layer 6 (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_294021746 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_294021746">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001950"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>neocortex (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_294021774 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_294021774">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0014935"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>cerebral cortex marginal layer (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_294021786 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_294021786">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0005390"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>cortical layer I (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_294021800 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_294021800">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0005391"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>cortical layer II (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_294021824 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_294021824">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0005392"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>cortical layer III (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_294021852 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_294021852">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0005393"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>cortical layer IV (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_294021878 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_294021878">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0005394"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>cortical layer V (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_294021896 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_294021896">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0005395"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>cortical layer VI (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_294021914 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_294021914">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0005343"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>cortical plate (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_294021932 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_294021932">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004035"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>cortical subplate (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_294021942 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_294021942">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004006"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>cerebellum intermediate zone (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_294021970 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_294021970">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004922"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>postnatal subventricular zone (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_294022030 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_294022030">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0003053"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>ventricular zone (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_294022044 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_294022044">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002316"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>white matter (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_294022158 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_294022158">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002728"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>entorhinal cortex (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_3999 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_3999">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000955"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>brain (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_4001 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_4001">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0010011"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>collection of basal ganglia (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_4002 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_4002">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001876"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>amygdala (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_4003 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_4003">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002421"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>hippocampal formation (primate)</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/pbao/PBA_4004 -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/pbao/PBA_4004">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0016540"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000589>occipital cortex (primate)</obo:IAO_0000589>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
+
